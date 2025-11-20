@@ -1,0 +1,31 @@
+import turtle as t
+import time
+
+t.pencolor('black')
+t.pensize(1)
+
+t.fillcolor("#F9E580")
+t.begin_fill()
+t.penup()
+t.goto(60,0)
+t.left(30)
+t.pendown()
+t.circle(8,180)
+t.circle(15,180)
+t.fd(20)
+t.circle(6,180)
+t.fd(5)
+t.left(180)
+t.fd(10)
+t.circle(7,180)
+t.fd(10)
+t.left(180)
+t.fd(20)
+t.circle(8,180)
+t.fd(40)
+t.circle(20,180)
+t.fd(3)
+t.end_fill()
+t.done()
+
+time.sleep(3)
